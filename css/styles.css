@@ -85,7 +85,7 @@ white-space: nowrap;
 }
 
 /*responsive Style */
-@media (max-width: 880px) {
+@media (max-width: 980px) {
   .navbar{
     backdrop-filter: none;
   }
