@@ -126,8 +126,9 @@ white-space: nowrap;
     .navbar-container{
       padding: 0 1rem;
     }
-    .navbar-logo {
-      font-size: 1.7rem;
+     .navbar-container .logo3 {
+      width: 300px;
+      height: 40px;
     }
     .navbar-container .navbar-menu li a{
       font size: 1.2rem;
