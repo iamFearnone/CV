@@ -123,6 +123,7 @@ white-space: nowrap;
   }
 
   @media (max-width: 480px){
+    /*
     .navbar-container{
       padding: 0 1rem;
     }
@@ -134,7 +135,31 @@ white-space: nowrap;
       font size: 1.5rem;
       padding: 3px 15px;
     }
+    */
+    .navbar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 120px;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      width: 100%;
+      position: fixed;
+      /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5); */
+      backdrop-filter: blur(10px);
+      z-index: 999;
+    }
+      .navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2rem;
+    max-width: 1600px;
+    }
   }
+
 
 .Top-container{
   background-color: blue;
